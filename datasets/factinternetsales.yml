@@ -1,7 +1,7 @@
 unique_name: factinternetsales
 label: factinternetsales
 object_type: dataset
-connection_id: Databricks
+connection_id: gbq
 table: factinternetsales
 project_properties:
   allow_aggregates: true

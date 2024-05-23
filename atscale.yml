@@ -1,6 +1,6 @@
-unique_name: Sales Insights - Databricks
+unique_name: Sales Insights - gbq
 object_type: catalog
-label: Sales Insights - Databricks
+label: Sales Insights - gbq
 as_version: 1.0
 aggressive_agg_promotion: false
 build_speculative_aggs: false
