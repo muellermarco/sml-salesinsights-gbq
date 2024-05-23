@@ -1,0 +1,8 @@
+unique_name: gbq
+object_type: connection
+as_connection: gbq
+label: GBQ
+db_type: gbq
+database: hive_metastore
+schema: sampleprojecttest
+override: true
