@@ -1,7 +1,7 @@
 unique_name: dimorder
 label: dimorder
 object_type: dataset
-connection_id: gbq
+connection_id: common_connection
 table: dimorder
 project_properties:
   allow_aggregates: true
