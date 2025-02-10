@@ -56,17 +56,7 @@ metrics:
     folder: Time Relative
   - unique_name: Average Sold Product per Order
     folder: Time Relative
-perspectives:
-  - unique_name: Internet Sales - No PII
-    dimensions:
-      - hierarchies:
-          - levels:
-              - Customer Name
-            name: Customer Hierarchy
-        name: Customer Dimension
-        secondaryattributes:
-          - d_firstname
-          - d_lastname
+
 relationships:
   - unique_name: factinternetsales_Product_Dimension
     from:
