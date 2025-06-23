@@ -1,0 +1,30 @@
+unique_name: Intersect
+object_type: model
+label: Intersect
+metrics:
+  - unique_name: Customer Count
+relationships:
+  - unique_name: factinternetsales_orderdatekey_to_Period 1_Date P1
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: Period 1
+      level: Date P1
+  - unique_name: factinternetsales_orderdatekey_to_Period 2_Date P2
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: Period 2
+      level: Date P2
+  - unique_name: factinternetsales_customerkey_to_Customer Dimension_Customer Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - customerkey
+    to:
+      dimension: Customer Dimension
+      level: Customer Name

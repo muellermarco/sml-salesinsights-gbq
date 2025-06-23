@@ -1,0 +1,20 @@
+unique_name: Period 1
+object_type: dimension
+label: Period 1
+hierarchies:
+  - unique_name: Period 1 Hierarchy
+    label: Period 1 Hierarchy
+    levels:
+      - unique_name: Date P1
+level_attributes:
+  - unique_name: Date P1
+    label: Date P1
+    contains_unique_names: false
+    dataset: datecustom
+    is_unique_key: false
+    key_columns:
+      - datekey
+    name_column: pk_date
+    sort_column: pk_date
+    time_unit: day
+type: time

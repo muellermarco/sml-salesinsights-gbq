@@ -1,0 +1,5 @@
+unique_name: Count P1
+object_type: metric_calc
+label: Count P1
+expression: MDX expression
+is_hidden: false
