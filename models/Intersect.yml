@@ -20,11 +20,21 @@ relationships:
     to:
       dimension: Period 2
       level: Date P2
-  - unique_name: factinternetsales_customerkey_to_Customer Dimension_Customer Name
+  - unique_name: factinternetsales_currencykey_to_Customer_Customer Level
     from:
       dataset: factinternetsales
       join_columns:
-        - customerkey
+        - currencykey
     to:
-      dimension: Customer Dimension
-      level: Customer Name
+      dimension: Customer
+      level: Customer Level
+  - unique_name: factinternetsales_salesordernumber_to_Order Dimension_order_line_item
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - salesorderlinenumber
+        - salesordernumber
+        - currencykey
+    to:
+      dimension: Order Dimension
+      level: order_line_item
