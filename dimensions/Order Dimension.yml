@@ -10,14 +10,23 @@ hierarchies:
       - unique_name: order
       - unique_name: order_line_item
         secondary_attributes:
-          - unique_name: typeorder
-            label: Order Type
+          - unique_name: ordernumberlinekey
+            label: ordernumberlinekey sec
+            contains_unique_names: false
             dataset: dimorder
-            folder: Orders
+            is_unique_key: false
             key_columns:
-              - type
-            name_column: type
-            sort_column: type
+              - ordernumberlinekey
+            name_column: ordernumberlinekey
+        aliases:            
+          - unique_name: orderlinekey
+            label: orderlinekey alias
+            contains_unique_names: false
+            dataset: dimorder
+            is_unique_key: false
+            key_columns:
+              - orderlinekey
+            name_column: orderlinekey
 level_attributes:
   - unique_name: currency
     label: Currency
