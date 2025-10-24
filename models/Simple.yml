@@ -1,0 +1,6 @@
+unique_name: Simple
+object_type: model
+label: Simple
+metrics:
+  - unique_name: salesamount1
+relationships: []
