@@ -420,3 +420,6 @@ relationships:
       dimension: Date Dimension
       level: DayMonth
 visible: true
+dataset_properties:
+  factinternetsales:
+    create_hinted_aggregate: true
