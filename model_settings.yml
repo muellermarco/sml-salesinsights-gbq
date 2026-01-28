@@ -1,0 +1,5 @@
+object_type: model_settings
+overrides:
+    Shipments:
+        "aggregates.demandDefined.disabled.deactivate" : true
+        "aggregates.create.demandDefined.enabled": false 
