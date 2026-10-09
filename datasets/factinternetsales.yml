@@ -1,5 +1,6 @@
 unique_name: factinternetsales
 label: factinternetsales
+description: "factinternetsales: fact table factinternetsales on connection common_connection (19 columns)."
 object_type: dataset
 connection_id: common_connection
 table: factinternetsales

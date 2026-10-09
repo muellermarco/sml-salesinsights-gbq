@@ -1,6 +1,7 @@
 unique_name: dimorder
 object_type: dataset
 label: dimorder
+description: "dimorder: dimension table dimorder on connection common_connection (9 columns)."
 columns:
   - name: currency_name
     data_type: string

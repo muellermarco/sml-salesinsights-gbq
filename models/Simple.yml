@@ -1,6 +1,7 @@
 unique_name: Simple
 object_type: model
 label: Simple
+description: "Simple model with 1 metrics."
 metrics:
   - unique_name: salesamount1
 relationships: []
