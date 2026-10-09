@@ -1,6 +1,7 @@
 unique_name: Shipments
 object_type: model
 label: Shipments
+description: "Shipments model with 18 metrics in folders Customer Metrics, Product Metrics, Sales Metrics, Time Relative; fact datasets: factinternetsales; dimensions: Customer Dimension, Date Dimension, Order Dimension, Product Dimension."
 dimensions:
   - Color Dimension
   - Size Dimension
